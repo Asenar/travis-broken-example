@@ -8,5 +8,6 @@ deploy:
   provider: releases
   api_key: ${GITHUB_TOKEN}
   file: package.zip
+  skip_cleanup: true
   on:
-    repo: Asenar/travis-broken-example
+    tags: true
