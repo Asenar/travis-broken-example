@@ -1,7 +1,6 @@
 language: php
 php:
 - 5.5
-- hhvm
 script: phpunit Test.php
 
 before_deploy: zip package.zip Test.php
